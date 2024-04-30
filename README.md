@@ -1,8 +1,25 @@
+# Next.js Starter Template
+
+This is a starter template for a [Next.js](https://nextjs.org/) project with Docker and ESLint setup.
+
 ## Getting Started 
 
-- rm -rf .git (to remove existing git repo)
-- git init (to initialize a new git repo)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Now create a ENV file and add 
-- PROJECTID = projectid
-- HOST_PORT = 12345
+```bash
+# Remove existing git repository
+rm -rf .git 
+
+# Initialize a new git repository
+git init 
+
+```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+```bash
+PROJECTID=projectid
+HOST_PORT=12345
+```
